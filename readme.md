@@ -5,7 +5,7 @@ https://drive.google.com/drive/folders/1zqbM87yC7e--9tMDCIDwKHfmsReMYwWI?usp=sha
 
 
 ````
-compute_normals.py (Fast Method that doesn't work)
+compute_normals.py 
 
 ````
 * Change the variable named default in the line to the name of the sequence to load
