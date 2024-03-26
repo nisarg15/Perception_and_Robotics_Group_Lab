@@ -24,4 +24,12 @@ normal_flow_supervised.py
 
  Change the variable named pc according to your pc name and the variable name folder according to the name of the sequence 
 
+ ## Output
+ ### Output Video
+
+
+https://github.com/nisarg15/Perception_and_Robotics_Group_Lab/assets/89348092/0a1a8c2f-ca1d-4fe5-83f5-fc7c3b8d95a1
+
+ 
+
 Nisarg_Upadhyay
