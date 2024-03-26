@@ -1,8 +1,4 @@
 Clone the GitHub repository and place it in the home 
-Download the data with the link given below and place 2 folders in the folder called prg/DeepFit/tutorial\
-
-https://drive.google.com/drive/folders/1zqbM87yC7e--9tMDCIDwKHfmsReMYwWI?usp=sharing
-
 
 ````
 compute_normals.py 
