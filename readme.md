@@ -5,13 +5,13 @@ The link to the Dataset is provided below <br>
 https://better-flow.github.io/evimo/download_evimo_2.html <br>
 Download the .npz of samsung_mono of the Motion Segmentation / Object Recognition dataset<br>
 
-Extract all the files and combine all the dataset sequences from /npz_samsung_mono_imo/samsung_mono/imo/evel and /home/enigma/Downloads/npz_samsung_mono_imo/samsung_mono/imo/train in one folder named dataset.<br>
+Extract all the files and combine all the dataset sequences from "/npz_samsung_mono_imo/samsung_mono/imo/evel" and "/npz_samsung_mono_imo/samsung_mono/imo/train" in one folder named dataset.<br>
 In every subfolder create an empty folder by the name of "nf"
 
 ### Ground Truth
-To obtain the ground truth download the from the below given GoogleDrive link<br>
+To obtain the ground truth download them from the below given GoogleDrive link<br>
 https://drive.google.com/drive/folders/1tC0S10VbLei8HYtGcf8pPDxz997U76sX?usp=sharing<br>
-Extract the zip files of each sequence and place them in the sub folders of same name which are present in the dataset folder created for the pointcloud data.
+Extract the zip files of each sequence and place them in the subfolders of the same name present in the dataset folder created for the point cloud data.
 
 ## Code
 ### Computing the Normal Flow
@@ -22,15 +22,15 @@ compute_normals.py
 
 ````
 * Change the default variable to the subfolder's name for which normal flow is to be generated in the line given below in the code<br>
-### "parser.add_argument('--input', type=str, default='scene10_dyn_train_00_000000', help='full path to input point cloud')"<br>
+#### "parser.add_argument('--input', type=str, default='scene10_dyn_train_00_000000', help='full path to input point cloud')"<br>
 * Update data_set_folder to the dataset folder's location.<br>
-* Change the name of the variable folder whos normalflow is to genrate.<br>
+* Change the name of the variable folder whose normal flow is to generate.<br>
 * Ensure you're in the dataset directory when executing the code<br>
 
 * Output
-    pickle files of x,y coordinates, and normal flow will be genrated in the empty folder called nf
+    pickle files of x,y coordinates, and normal flow will be generated in the empty folder called nf
 
-### Generating ouput videos and excel files
+### Generating output videos and Excel files
 
 ````
 normal_flow_supervised.py
